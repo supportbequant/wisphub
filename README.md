@@ -1,9 +1,9 @@
 # wisphub-bqn-sync
-Simple synchronization script between BQN and a Wisphub billing
+Simple synchronization script between BQN and a Wisphub billing.
 
 ## Installation
 
-The script requires python 3.10 or later with *requests* package
+The script requires python 3.10 or later with *requests* package.
 
 ### In Arch Linux:
 `$ sudo pacman -S python3`
@@ -24,7 +24,7 @@ The script requires python 3.10 or later with *requests* package
 
 https://www.python.org/downloads/macos/
 
-2. Install package (enter Administrator password when requested)
+2. Install package (enter Administrator password when requested).
 
 4. In command shell:
 
@@ -32,17 +32,17 @@ https://www.python.org/downloads/macos/
 
 ## Setup
 
-Create an API toekn in Wisphub billing
+Create an API token in Wisphub billing.
 
-Enable REST API in BQN
+Enable REST API in BQN.
 
 ## Running the script
 
-Every time a synchronization is needded:
+Every time a synchronization is needed:
 
 `python3 ./wisphub-bqn-sync.py -b <bqn-ip> <bqn-rest-user> <bqn-rest-password> <wisphub-api-token>`
 
-The first time the script is run and everytime there are changes in policy limits, go to BQN Status->Radius/REST/Billing->Policies, look for policies of type "undefined" and click in their names to configure the speed limits in the BQN rate policy
+The first time the script is run and everytime there are changes in policy limits, go to BQN Status->Radius/REST/Billing->Policies, look for policies of type "undefined" and click in their names to configure the speed limits in the BQN rate policy.
 
 ## Known limitations
 
