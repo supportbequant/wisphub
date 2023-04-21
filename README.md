@@ -1,30 +1,39 @@
-# wisphub
+# wisphub-bqn-sync
 Simple synchronization script between BQN and a Wisphub billing
 
 ## Installation
 
-The script requires python 3.10 or later with requests package
+The script requires python 3.10 or later with *requests* package
 
 ### In Arch Linux:
 `$ sudo pacman -S python3`
+
 `$ sudo pip3 install requests`
 
 ### In Windows:
 1. In elevated (administration) shell:
+
 `> winget install python`
+
 2. In normal shell:
+
 `> pip install requests`
 
 #### In Mac OS:
 1. Download package for Mac from python official site:
+
 https://www.python.org/downloads/macos/
+
 2. Install package (enter Administrator password when requested)
-3. In command shell:
+
+4. In command shell:
+
 `$ pip3 install requests`
 
 ## Setup
 
 Create an API toekn in Wisphub billing
+
 Enable REST API in BQN
 
 ## Running the script
