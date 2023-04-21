@@ -53,7 +53,7 @@ def getWisphubEntries(url, headers):
 
   offset = 0
   page = 1
-  pageSize = 5000
+  pageSize = 1000
   remaining = True
   entries = []
   logger = logging.getLogger(__name__)
