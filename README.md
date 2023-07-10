@@ -1,6 +1,8 @@
 # wisphub-bqn-sync
 Simple synchronization script between BQN and a Wisphub billing.
-NOTE: WispHub now is officially integrated with Bequant BQN. We stromgly recommend that official integration, fully supported, and not this simple script.
+
+NOTE: WispHub is now officially integrated with Bequant BQN. We strongly recommend using that official integration, which is fully supported, in all BQN-WispHub deployments.
+The simple script in this repository is left simply as a reference.
 
 ## Installation
 
